@@ -1,6 +1,7 @@
 /*
  * The Clear BSD License
  * Copyright 2017 NXP
+ * Copyright 2018 Emcraft Systems
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification,
@@ -49,7 +50,7 @@
 void BOARD_InitDebugConsole(void)
 {
     uint32_t uartClkSrcFreq = BOARD_DEBUG_UART_CLK_FREQ;
-    CLOCK_EnableClock(kCLOCK_Uart2);
+    CLOCK_EnableClock(kCLOCK_Uart3);
     DbgConsole_Init(BOARD_DEBUG_UART_BASEADDR, BOARD_DEBUG_UART_BAUDRATE, DEBUG_CONSOLE_DEVICE_TYPE_IUART, uartClkSrcFreq);
 
 }
