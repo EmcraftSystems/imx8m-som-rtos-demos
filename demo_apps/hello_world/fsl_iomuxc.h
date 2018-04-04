@@ -604,7 +604,7 @@
 #define IOMUXC_UART1_RXD_ECSPI3_SCLK                                  0x30330234, 0x1, 0x00000000, 0x0, 0x3033049c
 #define IOMUXC_UART1_RXD_GPIO5_IO22                                 0x30330234, 0x5, 0x00000000, 0x0, 0x3033049c
 #define IOMUXC_UART1_RXD_TPSMP_HDATA24                              0x30330234, 0x7, 0x00000000, 0x0, 0x3033049c
-#define IOMUXC_UART1_TXD_UART1_TX                                     0x30330238, 0x0, 0x303304f4, 0x1, 0x303304a0
+#define IOMUXC_UART1_TXD_UART1_TX                                     0x30330238, 0x0, 0x00000000, 0x0, 0x303304a0
 #define IOMUXC_UART1_TXD_ECSPI3_MOSI                                  0x30330238, 0x1, 0x00000000, 0x0, 0x303304a0
 #define IOMUXC_UART1_TXD_GPIO5_IO23                                 0x30330238, 0x5, 0x00000000, 0x0, 0x303304a0
 #define IOMUXC_UART1_TXD_TPSMP_HDATA25                              0x30330238, 0x7, 0x00000000, 0x0, 0x303304a0
@@ -620,7 +620,7 @@
 #define IOMUXC_UART3_RXD_UART1_CTS_B                                  0x30330244, 0x1, 0x303304f0, 0x0, 0x303304ac
 #define IOMUXC_UART3_RXD_GPIO5_IO26                                 0x30330244, 0x5, 0x00000000, 0x0, 0x303304ac
 #define IOMUXC_UART3_RXD_TPSMP_HDATA28                              0x30330244, 0x7, 0x00000000, 0x0, 0x303304ac
-#define IOMUXC_UART3_TXD_UART3_TX                                     0x30330248, 0x0, 0x30330504, 0x3, 0x303304b0
+#define IOMUXC_UART3_TXD_UART3_TX                                     0x30330248, 0x0, 0x00000000, 0x0 0x303304b0
 #define IOMUXC_UART3_TXD_UART1_RTS_B                                  0x30330248, 0x1, 0x303304f0, 0x1, 0x303304b0
 #define IOMUXC_UART3_TXD_GPIO5_IO27                                 0x30330248, 0x5, 0x00000000, 0x0, 0x303304b0
 #define IOMUXC_UART3_TXD_TPSMP_HDATA29                              0x30330248, 0x7, 0x00000000, 0x0, 0x303304b0
@@ -629,7 +629,7 @@
 #define IOMUXC_UART4_RXD_PCIE1_CLKREQ_B                               0x3033024c, 0x2, 0x30330524, 0x1, 0x303304b4
 #define IOMUXC_UART4_RXD_GPIO5_IO28                                 0x3033024c, 0x5, 0x00000000, 0x0, 0x303304b4
 #define IOMUXC_UART4_RXD_TPSMP_HDATA30                              0x3033024c, 0x7, 0x00000000, 0x0, 0x303304b4
-#define IOMUXC_UART4_TXD_UART4_TX                                     0x30330250, 0x0, 0x3033050c, 0x3, 0x303304b8
+#define IOMUXC_UART4_TXD_UART4_TX                                     0x30330250, 0x0, 0x00000000, 0x0, 0x303304b8
 #define IOMUXC_UART4_TXD_UART2_RTS_B                                  0x30330250, 0x1, 0x303304f8, 0x1, 0x303304b8
 #define IOMUXC_UART4_TXD_PCIE2_CLKREQ_B                               0x30330250, 0x2, 0x30330528, 0x1, 0x303304b8
 #define IOMUXC_UART4_TXD_GPIO5_IO29                                 0x30330250, 0x5, 0x00000000, 0x0, 0x303304b8
